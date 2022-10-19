@@ -1,4 +1,4 @@
-import structural.bridge.main
+import creational.singleton.main
 
 object Main {
   def main (args: Array[String]): Unit = {
