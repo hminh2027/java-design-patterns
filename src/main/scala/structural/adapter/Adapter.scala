@@ -1,4 +1,4 @@
-package structural.adapter.code
+package structural.adapter
 
 class Adapter (val adaptee: Adaptee) extends Target {
 
