@@ -1,4 +1,4 @@
-package structural.adapter
+package structural.adapter.code
 
 class Adaptee {
   def specificRequest(): String = {

@@ -1,4 +1,4 @@
-package structural.adapter
+package structural.adapter.code
 
 class main {
   println("Client (human): I use Target language:")
