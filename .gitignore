@@ -1,5 +1,6 @@
 project/target/
 target/
 .idea
+blamed/
 .vscode
-.bsp
+.out
