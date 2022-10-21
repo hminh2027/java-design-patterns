@@ -1,5 +1,5 @@
-# Scala Design Patterns
-Just me implementing Design patterns code in Scala
+# Java Design Patterns
+Just me implementing Design patterns code in Java
 
 > Each design template has an article explaining the problem attached.
 
