@@ -5,8 +5,8 @@ public class Main {
         PizzaBuilder seaPizzaBuilder = new SeaPizzaBuilder();
         PizzaBuilder cheesePizzaBuilder = new CheesePizzaBuilder();
 
-        Director chef = new Director(seaPizzaBuilder);
-        Director chef2 = new Director(cheesePizzaBuilder);
+        PizzaDirector chef = new PizzaDirector(seaPizzaBuilder);
+        PizzaDirector chef2 = new PizzaDirector(cheesePizzaBuilder);
 
         chef.build();
         chef2.build();

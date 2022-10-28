@@ -1,9 +1,9 @@
 package creational.builder;
 
-public class Director {
+public class PizzaDirector {
     PizzaBuilder builder;
 
-    public Director(PizzaBuilder builder) {
+    public PizzaDirector(PizzaBuilder builder) {
         this.builder = builder;
     }
 
