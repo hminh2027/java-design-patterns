@@ -1,9 +1,9 @@
 package behavioral.state;
 
 class PhoneContext implements PhoneState {
-    private PhoneState payingState;
-    private PhoneState lockedState;
-    private PhoneState unlockedState;
+    private final PhoneState payingState;
+    private final PhoneState lockedState;
+    private final PhoneState unlockedState;
 
     private PhoneState state;
 
