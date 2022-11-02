@@ -21,6 +21,8 @@ class PhoneContext implements PhoneState {
 
     @Override
     public void pressHomeButton() {
+
+        System.out.println("Pressing Home button...");
         state.pressHomeButton();
     }
 
