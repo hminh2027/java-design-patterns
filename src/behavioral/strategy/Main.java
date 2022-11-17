@@ -5,5 +5,8 @@ public class Main {
         LoginService loginService = new LoginService();
         loginService.setStrategy(new GithubStrategy());
         loginService.login();
+        // set another strategy
+        loginService.setStrategy(new FacebookStrategy());
+        loginService.login();
     }
 }

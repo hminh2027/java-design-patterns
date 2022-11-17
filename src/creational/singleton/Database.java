@@ -4,9 +4,9 @@ public class Database {
     public static String CONNECTION = "";
 
     public static String getConnection() {
-        if (CONNECTION == "") {
-            System.out.println("Không tìm thấy Connection! Đang khởi tạo...");
-            CONNECTION = "Đây là đối tượng Connection!";
+        if (CONNECTION.equals("")) {
+            System.out.println("Connection not found! Initializing...");
+            CONNECTION = "This is Connection Object!";
         }
         return CONNECTION;
     }

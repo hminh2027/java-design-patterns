@@ -1,7 +1,7 @@
 package behavioral.state;
 
 class PhoneContext implements PhoneState {
-    private final PhoneState payingState;
+    private final PhoneState waitState;
     private final PhoneState lockedState;
     private final PhoneState unlockedState;
 
@@ -9,7 +9,7 @@ class PhoneContext implements PhoneState {
 
     public PhoneContext() {
         this.lockedState = new LockedState(this);
-        this.payingState = new PayingState(this);
+        this.waitState = new WaitState(this);
         this.unlockedState = new UnlockedState(this);
 
         this.state = lockedState;
@@ -26,8 +26,8 @@ class PhoneContext implements PhoneState {
         state.pressHomeButton();
     }
 
-    public PhoneState getPayingState() {
-        return payingState;
+    public PhoneState getWaitState() {
+        return waitState;
     }
 
     public PhoneState getUnlockedState() {

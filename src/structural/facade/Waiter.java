@@ -5,6 +5,6 @@ public class Waiter {
         System.out.println("Waiter is taking your order: " + food);
     }
     public void serveFood(String food) {
-        System.out.println("Waiter is serving your " + food);
+        System.out.println("Waiter is serving your " + food + "...");
     }
 }
